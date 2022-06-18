@@ -16,13 +16,22 @@ public class CitedPageGui {
         titleAuthor.setFont(Gui.TITLE_1);
         citedPagePanel.add(titleAuthor, "wrap 20px, span, align center");
 
-        citedPagePanel.add(new DrawPanel("hacker.png"),"wrap");
+        citedPagePanel.add(new DrawPanel("hacker.png"));
+
+        JPanel authorAttributePanel = new JPanel(new MigLayout());
+        citedPagePanel.add(authorAttributePanel,"wrap 100px");
+
+        JLabel author = new JLabel("Daniel Biliaiev");
+        author.setFont(Gui.TITLE_2);
+        authorAttributePanel.add(author,"wrap");
+
+        SwingLink authorLink = new SwingLink("me on GitHub","https://github.com/DanielRendox");
+        authorLink.setFont(Gui.PLAIN_TEXT_FONT);
+        authorAttributePanel.add(authorLink,"wrap");
 
         JLabel titleThanks = new JLabel("THANKS!");
         titleThanks.setFont(Gui.TITLE_1);
         citedPagePanel.add(titleThanks, "wrap 20px, span, align center");
-
-        // TODO Add information about me
 
         JLabel gratitudeForTheIdea = new JLabel("Thanks for the idea!");
         JLabel goatAwardExplanation = new JLabel("Goat award was made by");
