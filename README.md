@@ -30,7 +30,7 @@ In the project besides usual java libraries are used:
 > to pick door No. 2?" Is it to your advantage to switch your choice?
 
 ![](src/main/resources/goat1.png)
-![](src/main/resources/goat2.png)
-![](src/main/resources/car3.png)
+![](src/main/resources/car2.png)
+![](src/main/resources/goat3.png)
 
 ### It turns out that the winning probability is bigger if you switch your choice. I made this game so you will see that.
