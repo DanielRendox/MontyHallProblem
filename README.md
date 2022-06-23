@@ -5,7 +5,7 @@ door, is really true, which at first glance, conflicts with the common sense.
 
 # How does the program work?
 
-![](MontyHallGameShow.gif)
+<img src="MontyHallGameShow.gif" width="568" >
 
 You choose the door, the program opens it but doesn't show you who is behind. Then it shows you where the goat is so you can deside to change
 your choice or not. And you get the result with graphs and images. You can also see what was behind each door, jump to the history page or restart
@@ -13,6 +13,8 @@ the game.
 
 The most interesting thing in the program is the Computer plays page. You specify the number of games to play, then program plays this number of games
 same randomly changing choice and leaving it. Appeared graphs shows you that the winning probability if change choice really is 67%, if not — 33%.
+
+<img src="ComputersPlayShow.gif" width="568" >
 
 # Skills used in the project
 
